@@ -1,0 +1,10 @@
+curl --location 'http://localhost:8080/send-student' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id": "S01",
+    "name": "Good Student",
+    "collage": {
+        "collageName": "JSS",
+        "city": "Mysore"
+    }
+}'
